@@ -1,0 +1,36 @@
+{
+  "name": "bigtrip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Проект «Большое путешествие» от HTML Academy",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "css-loader": "3.4.0",
+    "eslint": "7.17.0",
+    "eslint-config-htmlacademy": "0.6.0",
+    "moment-locales-webpack-plugin": "1.2.0",
+    "style-loader": "2.0.0",
+    "terser-webpack-plugin": "5.1.1",
+    "webpack": "5.12.2",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.1"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "chart.js": "2.9.4",
+    "chartjs-plugin-datalabels": "0.7.0",
+    "flatpickr": "4.6.9",
+    "he": "1.2.0",
+    "lodash": "4.17.20",
+    "moment": "2.29.1",
+    "nanoid": "3.1.20"
+  }
+}
